@@ -18,7 +18,7 @@ class TG_CONFIG:
     #DEVS or #OWNERS
     sudo_users = [1287772731]
 
-    session = "conan76_web_dl_bot"
+    session = "DASTHEOGBOT"
 
     bot_creater = "Conan76"  # Don't Remove if you Respect the DEV
 
