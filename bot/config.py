@@ -13,10 +13,10 @@ class TG_CONFIG:
 
     api_hash = "62462b2d4401bae7f6cf4b326b618e95"
 
-    bot_token = "7023467091:AAHCM0tGSS8T0gu4MIRQ_uVtzXVFV0Rq4pY"
+    bot_token = "7158302024:AAHJq_JL6oMiRYttto5OTprgOmpfi3-kThM"
 
     #DEVS or #OWNERS
-    sudo_users = [1984763765, 6360672597]
+    sudo_users = [1287772731]
 
     session = "conan76_web_dl_bot"
 
