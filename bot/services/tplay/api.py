@@ -24,7 +24,7 @@ class TPLAY_API():
     API_ALL_CHANNELS = "https://fox.toxic-gang.xyz/tata/channels"
     FETCHER = "https://fox.toxic-gang.xyz/tata/key/{id}"
     HMAC = "https://fox.toxic-gang.xyz/tata/hmac{}".format(random.randint(10,99))
-    HMAC_v2 = "https://fox.toxic-gang.xyz/tata/sliv/{id}{}".format(random.randint(10,99))
+    HMAC_v2 = "https://fox.toxic-gang.xyz/tata/sliv/{}".format(random.randint(10,99))
 
     def __init__(self, channel_slug):
         self.channel_slug = channel_slug
