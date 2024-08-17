@@ -21,10 +21,10 @@ def within_12_hours(timestamp):
     return time_difference < timedelta(hours=1)
 
 class TPLAY_API():
-    API_ALL_CHANNELS = "https://kong-tatasky.videoready.tv/content-detail/pub/api/v1/channels?limit=1000"
-    FETCHER = "https://tplayapi.code-crafters.app/321codecrafters/fetcher.json"
-    HMAC = "https://tplayapi.code-crafters.app/321codecrafters/hmac.json?random={}".format(random.randint(10,99))
-    HMAC_v2 = "https://chutiya-maharaj-ab-karlo-chori-ye-toxic-iptv-playlist-hei.vercel.app/411.mpd?random={}".format(random.randint(10,99))
+    API_ALL_CHANNELS = "https://fox.toxic-gang.xyz/tata/channels"
+    FETCHER = "https://fox.toxic-gang.xyz/tata/key/{id}"
+    HMAC = "https://fox.toxic-gang.xyz/tata/hmac{}".format(random.randint(10,99))
+    HMAC_v2 = "https://fox.toxic-gang.xyz/tata/sliv/{id}{}".format(random.randint(10,99))
 
     def __init__(self, channel_slug):
         self.channel_slug = channel_slug
