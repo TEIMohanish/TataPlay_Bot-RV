@@ -479,7 +479,7 @@ def timestamp_to_datetime(timestamp, timezone = "Asia/Kolkata"):
 def post_to_telegraph(content):
 
     telegraph = Telegraph()
-    telegraph.create_account(short_name='conan76')
+    telegraph.create_account(short_name='Toon Encodes')
     
     response = telegraph.create_page(
         'Schedule',
